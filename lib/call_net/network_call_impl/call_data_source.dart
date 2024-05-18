@@ -38,8 +38,6 @@ class NetworkImpl implements NetworkDataSource {
     try {
       final response =
           await networkMethodsCall.apiTypeDelete(url: url);
-
-
       return returnResponse(response);
     } on HttpException catch (e) {
       throw ServerException(e.message);

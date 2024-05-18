@@ -31,6 +31,7 @@ class _AddPostPageState extends State<AddPostPage> {
 
   @override
   void initState() {
+    //if postModel is null means add new post else update post
     titleTxt.text = widget.postModel == null ? '' : widget.postModel!.title;
     bodyTxt.text = widget.postModel == null ? '' : widget.postModel!.body;
     super.initState();

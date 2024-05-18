@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
 import 'package:posts_all/feature/detail/data/commet_model.dart';
-
 import '../../../core/global/widget/card/c_card_widget.dart';
 import '../../../core/theme/app_palette.dart';
 

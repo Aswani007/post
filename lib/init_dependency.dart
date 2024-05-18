@@ -9,7 +9,6 @@ final serviceLocator = GetIt.instance;
 
 Future<void> initDependencies() async {
   _initD();
-  // _initComments();
 }
 
 void _initD() {
@@ -20,9 +19,3 @@ void _initD() {
     ..registerLazySingleton(() => BlocDetails(serviceLocator()));
 }
 
-// void _initComments() {
-//   serviceLocator
-//     ..registerFactory<NetworkMethodsCall>(() => NetworkCallSource())
-//     ..registerFactory<NetworkDataSource>(() => NetworkImpl(serviceLocator()))
-//     ..registerLazySingleton(() => BlocDetails(serviceLocator()));
-// }
