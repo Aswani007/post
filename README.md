@@ -1,16 +1,15 @@
 # posts_all
 
-A new Flutter project.
+App for getting data from api and show,edit,create & update data.
+Free api source has been used in the app.
+Bloc is been used for state management
 
-## Getting Started
+Must have Flutter installed and either android studio or vs code downloaded for running the project
 
-This project is a starting point for a Flutter application.
+Clone the project by going to branch - aswani
 
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+Feature of the app ->
+1.Home Screen for showing all fetched post
+2.Add new post with fields - title & body
+3.Edit selected post with fields - title & body
+4.Delete slected post
